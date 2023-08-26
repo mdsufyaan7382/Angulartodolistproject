@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "virat",
+      "email": "vir@gmail.com",
+      "password": "anu@123"
+    },
+    {
+      "id": 2,
+      "name": "Rohit",
+      "email": "roh@gmail.com",
+      "password": "rol@234"
+    },
+    {
+      "id": 3,
+      "name": "Surya",
+      "email": "sur@gmail.com",
+      "password": "sun@345"
+    },
+    {
+      "id": 4,
+      "name": "Seraj",
+      "email": "ser@gmail.com",
+      "password": "ser@456"
+    },
+    {
+      "id": 5,
+      "name": "Sachin",
+      "email": "sac@gmail.com",
+      "password": "sar@111"
+    },
+    {
+      "name": "suhail",
+      "email": "suhail@123",
+      "password": "suh@786",
+      "id": 6
+    },
+    {
+      "name": " Sufyaan ",
+      "email": "sufyaan@gmail.com",
+      "password": "suf@123",
+      "id": 7
+    },
+    {
+      "name": "ashish",
+      "email": "ash@gmail.com",
+      "password": "ash@123",
+      "id": 8
+    },
+    {
+      "name": "wahid",
+      "email": "wah@gmail.com",
+      "password": "wah@123",
+      "id": 9
+    }
+  ]
+}

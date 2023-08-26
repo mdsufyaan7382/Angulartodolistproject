@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+//import{ApiService} from './services/api.service';
 
 @Component({
   selector: 'app-root',
@@ -8,11 +9,16 @@ import { Router } from '@angular/router';
 })
 export class AppComponent {
   title = 'firstproject';
+  // users:any;
   
-   constructor(private route :  Router)
-   {
-
-   }
+   constructor(private route :  Router ){}
+  //  , private apiData:ApiService)
+  //  {
+  //   apiData.users().subscribe((data)=>{
+  //     console.warn("data",data);
+  //     this.users= data
+  //   });
+  //  }
    
 
   btn()
