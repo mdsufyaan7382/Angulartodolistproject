@@ -1,0 +1,28 @@
+<h1><b><i><u> <p style="text-align:center">To-Do List !</p></u></i></b></h1>
+<!-- <a href="adminLoginHomePage"><button class="btn btn-primary">Back</button></a>&nbsp;&nbsp; -->
+<a href="add"><button class="btn btn-success">Add Todo</button></a>
+<hr />
+<div style="width:800px">
+<table class="table table-striped">
+    <tr>
+        <th>Task Id.</th>
+        <th>Task Description</th>
+        <th>Task Target Date</th>
+        <th>UserName</th>
+        <th>Update</th>
+        <th>Delete</th>
+    </tr>
+    <tr *ngFor="let t of task">
+    
+        <td>{{t.taskid}}</td>
+        <td>{{t.taskdescription}}</td>
+        <td>{{t.tasktargetdate}}</td>
+        <td>{{t.username}}</td>
+            <td>
+                <button routerLink="/updatetask/{{t.taskid}}"class="btn btn-success btn-sm">Update</button></td>
+            <!-- <td><a (click)="delete(b.itemid)">Delete</a></td> -->
+            <td><button (click)="delete(t.taskid)"class="btn btn-danger btn-sm">Delete</button></td>
+        </tr>		
+</table>
+</div>
+

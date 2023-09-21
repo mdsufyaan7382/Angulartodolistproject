@@ -1,13 +1,9 @@
+<div class="container">
 
-<mat-card>
-    <mat-card-content>
-      <div class="header">
-        <h1>To-Do Application</h1>
-      </div>
-      <div class="container">
+    <h1>To-Do Application</h1>
 
-
-       <form (ngSubmit)="onSubmit(taskForm)" #taskForm="ngForm">
+    <hr>
+    <form (ngSubmit)="onSubmit(taskForm)" #taskForm="ngForm">
         <div class="form-group">
             <label for="task">Task</label>
             <input type="text" class="form-control" id="task" placeholder="Enter task" ngModel name="task" required>
@@ -38,4 +34,3 @@
         </tbody>
     </table>
 </div>
-

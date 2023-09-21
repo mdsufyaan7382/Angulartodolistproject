@@ -1,0 +1,31 @@
+<h1>Add Todo </h1>
+<a href="viewalltask"><button type="button" class="btn btn-primary btn-sm">Back</button></a>
+
+<hr />
+
+<div>
+    <form (ngSubmit)="getTaskDetail()">
+        <tr>
+            <td>Task Id.</td>
+            <td><input type="text" [(ngModel)]="task.taskid" name="taskid" /></td>
+        </tr>
+        <tr>
+            <td>Task Description</td>
+            <td><input type="text" [(ngModel)]="task.taskdescription" name="taskdescription" /></td>
+        </tr>
+        <tr>
+            <td>Task Target Date</td>
+            <td><input type="text" [(ngModel)]="task.tasktargetdate" name="tasktargetdate" /></td>
+        </tr>
+        <tr>
+            <td>UserName</td>
+            <td><input type="text" [(ngModel)]="task.username" name="tasktargetdate" /></td>
+        </tr>
+       <tr>
+       
+            <td></td>
+            <td><input type="submit" class="btn btn-success" value="ADD" /></td>
+            
+        </tr>
+    </form>
+</div>

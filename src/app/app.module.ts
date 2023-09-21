@@ -8,9 +8,16 @@ import { FormsModule } from '@angular/forms';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import {MatCardModule} from '@angular/material/card';
 import {MatFormFieldModule} from '@angular/material/form-field';
- import { TodolistComponent } from './todolist/todolist.component';
+import { TodolistComponent } from './todolist/todolist.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { RegisterComponent } from './register/register.component';
+import { HomeComponent } from './home/home.component';
+import { AddtaskComponent } from './addtask/addtask.component';
+import { UpdatetaskComponent } from './updatetask/updatetask.component';
+import { ViewalltaskbyuserComponent } from './viewalltaskbyuser/viewalltaskbyuser.component';
+
 
 
 @NgModule({
@@ -18,7 +25,12 @@ import { HttpClientModule } from '@angular/common/http';
     AppComponent,
     LoginComponent,
     DashboardComponent,
-    TodolistComponent
+    TodolistComponent,
+    RegisterComponent,
+    HomeComponent,
+    AddtaskComponent,
+    UpdatetaskComponent,
+    ViewalltaskbyuserComponent
   ],
   imports: [
     BrowserModule,
@@ -28,6 +40,7 @@ import { HttpClientModule } from '@angular/common/http';
     MatFormFieldModule,
     BrowserAnimationsModule,
     HttpClientModule,
+    MatSlideToggleModule,
     
   ],
   providers: [],

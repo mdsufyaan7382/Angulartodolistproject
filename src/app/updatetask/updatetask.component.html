@@ -1,0 +1,29 @@
+<h1>Update the Todo </h1>
+<a href="viewalltask"><button class="btn btn-primary">Back</button></a>
+<hr />
+<div class = "container">
+    <form (ngSubmit)="updateTaskDetails()">
+        <tr>
+            <tr>
+                <td>Task Id.</td>
+                <td><input type="text" [(ngModel)]="task.taskid" name="taskid" /></td>
+            </tr>
+            <tr>
+                <td>Task Description</td>
+                <td><input type="text" [(ngModel)]="task.taskdescription" name="taskdescription" /></td>
+            </tr>
+            <tr>
+                <td>Task Target Date</td>
+                <td><input type="text" [(ngModel)]="task.tasktargetdate" name="tasktargetdate" /></td>
+            </tr>
+            <tr>
+                <td>UserName</td>
+                <td><input type="text" [(ngModel)]="task.username" name="tasktargetdate" /></td>
+            </tr>
+           <tr>
+           
+            <td></td>
+            <td><input type="submit" class="btn btn-success btn-sm" value="update" /></td>
+        </tr>
+    </form>
+</div>
